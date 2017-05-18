@@ -9,6 +9,10 @@ import java.nio.file.Paths;
 import java.util.List;
 import java.util.Scanner;
 
+/**
+ * Class that does all the operations 
+ *
+ */
 public class Operations {
 	Scanner scanner = new Scanner(System.in);
 	private char [][] maze;
