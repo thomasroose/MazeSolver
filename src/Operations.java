@@ -103,7 +103,7 @@ public class Operations {
 	}
 	
 	/**
-	 * Replace the 'X' with '+' to make it more clear
+	 * Replace the 'X' with '+' to make the maze more clear
 	 */
 	public void replaceXs(){
 		for(int i = 0; i < maze.length; i ++){

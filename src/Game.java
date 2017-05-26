@@ -25,7 +25,7 @@ public class Game {
 		ops.readMazeFromFile();
 		
 		/**
-		 * Method that solves the maze an prints it
+		 * Method that solves the maze and prints it
 		 */
 		ops.solver();
 	}
