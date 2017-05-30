@@ -231,33 +231,4 @@ public class Maze {
 			e.printStackTrace();
 		}
 	}
-	
-	/*public static void main(String[] args) {
-		Scanner scanner = new Scanner(System.in);
-		System.out.println("Enter an integer to determine the size of the maze");
-		
-		String entered = scanner.nextLine(); 
-		int size = Integer.parseInt(entered);
-		
-		System.out.println("Generating maze...");
-		Maze maze = new Maze(size);
-		maze.print();
-		
-		List<String> lines = maze.toListOfStrings();
-		String filename = "maze.txt";
-		System.out.println("Save to file: enter filename or use default [" + filename + "]");
-		
-		entered = scanner.nextLine();
-		scanner.close();
-		
-		if(!entered.equals("")) filename = entered;
-		
-		Path file = Paths.get(filename);
-		try {
-			Files.write(file, lines, Charset.forName("UTF-8"));
-			System.out.println(filename + " saved");
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
-	}*/
 }
